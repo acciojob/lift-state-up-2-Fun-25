@@ -5,7 +5,7 @@ import Child from "./Child";
 const App = () => {
   const [inputValue,setInputValue]=useState(0)
   return (
-    <div>
+    <div className="parent">
       <h1>Parent Component</h1>
       <p>{inputValue}</p>
       <div>

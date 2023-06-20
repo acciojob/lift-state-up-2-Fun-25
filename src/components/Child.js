@@ -2,7 +2,7 @@ import React from "react";
 
 function Child({ setInput }) {
   return (
-    <div>
+    <div className="child">
       <input type="text" onChange={(e) => setInput(e.target.value)} />
     </div>
   );
