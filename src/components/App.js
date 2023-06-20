@@ -1,7 +1,7 @@
 
 import React,{useState}from "react";
 import './../styles/App.css';
-
+import Child from "./Child";
 const App = () => {
   const [inputValue,setInputValue]=useState(0)
   return (
